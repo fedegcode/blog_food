@@ -1,0 +1,164 @@
+/* body maquetación flexbox */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #ecebee;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #837e8d;
+}
+
+
+.container{
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+}
+
+/* navbar */
+.navbar{
+    background-color: #ffffff;
+    height: 3.5em;
+    position: sticky;
+    top: 0;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar__container > ul{
+    display: flex;
+}
+
+.navbar__container > ul > li{
+    list-style: none;
+    background-color: none;
+}
+span{
+    /* background-color: rgb(56, 99, 138); */
+    display: inline-block;
+    margin: auto 0 auto 1em;
+    font-size: 1.7rem;
+}
+
+/* header */
+.header{
+    /* background-color: aqua; */
+    height: 8em;
+    width: 100%;    
+    display: block;
+    margin-bottom: 3em;
+}
+
+.header__img__cocina{
+    width: 100%;
+    display: block;
+    height: 8em;
+    object-fit: cover;
+}
+
+.navbar__link{
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: #000000;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+/* main */
+.main{
+    background-color: transparent;
+    height: 100%;
+    /* flex-basis: 70%; */ 
+}
+.h1{
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+}
+
+/* articles */
+.article{
+    background-color: none;
+    
+}
+
+.img__article{
+   max-width: 50%;
+}
+
+/* aside */
+.aside{
+    background-color: chartreuse;
+    margin-top: 0;
+}
+
+/* footer */
+.footer{
+    background-color: #ffffff;
+    height: 3.5em;
+}
+
+
+
+/* maquetación tablet */
+@media (min-width: 600px){
+    
+    .header{
+        
+    }
+    /* navbar */
+    .navbar{
+        /* background-color: #d7d5da; */
+        /* height: 3.75em; */
+    }
+
+    .main{
+        /* background-color: cadetblue; */
+        height: auto;        
+    }
+    
+
+    .footer{
+        width: 100%;
+    }
+}
+
+
+/* maquetación desktop */
+@media (min-width: 900px){
+    .header{
+        height: 15em;
+        width: 100%;
+        display: block;
+    }
+    .header__img__cocina{
+        width: 100%;
+        display: block;
+        height: 15em;
+        object-fit: cover;
+    }
+    .container2{
+        display: flex;
+    } 
+    .main{
+        /* background-color: cadetblue; */
+        height: 100%;
+        max-width: 80%;
+    }
+
+    .aside{
+        background-color: chartreuse;
+        flex-basis: 30%;
+    }
+    
+}
+
