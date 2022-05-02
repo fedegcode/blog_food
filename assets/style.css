@@ -75,7 +75,6 @@ span{
 .main{
     background-color: transparent;
     height: 100%;
-    /* flex-basis: 70%; */ 
 }
 .h1{
     margin-top: 0;
@@ -95,11 +94,6 @@ span{
    max-width: 50%;
 }
 
-/* aside */
-.aside{
-    background-color: chartreuse;
-    margin-top: 0;
-}
 
 /* footer */
 .footer{
@@ -150,14 +144,9 @@ span{
         display: flex;
     } 
     .main{
-        /* background-color: cadetblue; */
+        background-color: cadetblue;
         height: 100%;
         max-width: 80%;
-    }
-
-    .aside{
-        background-color: chartreuse;
-        flex-basis: 30%;
     }
     
 }
