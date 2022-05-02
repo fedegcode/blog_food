@@ -86,16 +86,16 @@ span{
 
 /* articles */
 .article{
-    background-color: #837e8d;
+    /* background-color: #837e8d; */
     
 }
 
 .article__h3{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .article__ul, .article__p, .article__h3{
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0 .5em;
 }
 
@@ -153,12 +153,12 @@ span{
         display: flex;
     } 
     .main{
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         height: 100%;
     }
 
     .article__ul, .article__p, .article__h3{
-        background-color: aqua;
+        /* background-color: aqua; */
         margin: 0 3em;
     }
     
