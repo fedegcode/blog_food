@@ -78,9 +78,9 @@ span{
 }
 .h1{
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* articles */
@@ -89,13 +89,9 @@ span{
     font-family: 'Open Sans', sans-serif;
 }
 
-.article__h3{
-    /* background-color: chartreuse; */
-}
-
 .article__ul, .article__p, .article__h3{
-    /* background-color: aqua; */
-    margin: 0 .5em;
+    margin: 0 .5em 1em .5em;
+    text-align: left;
 }
 
 .img__article{
@@ -114,15 +110,6 @@ span{
 /* maquetación tablet */
 @media (min-width: 600px){
     
-    .header{
-        
-    }
-    /* navbar */
-    .navbar{
-        /* background-color: #d7d5da; */
-        /* height: 3.75em; */
-    }
-
     .main{
         /* background-color: cadetblue; */
         height: auto;        
@@ -151,6 +138,11 @@ span{
     .container2{
         display: flex;
     } 
+    .h1{
+        font-size: 3.5rem;
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
     .main{
         /* background-color: cadetblue; */
         height: 100%;
@@ -158,9 +150,23 @@ span{
 
     .article__ul, .article__p, .article__h3{
         /* background-color: aqua; */
-        margin: 0 3em;
+        margin: 0 3em 1em 3em;
+    }
+
+    .img__article{
+        margin-bottom: 1em;
     }
     
-    
+    .h2{
+        font-size: 2.5em;
+    }
+
+    .article__h3{
+        font-size: 1.5em;
+    }
+
+    .article__ul, .article__p{
+        font-size: 1em;
+    }
 }
 
